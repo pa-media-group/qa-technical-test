@@ -12,7 +12,7 @@ describe('Metaweather API Location Search endpoint test', () => {
       latt_long: '37.777119, -122.41964'
     });
 
-    response = await request('https://www.metaweather.com/').get('api/location/search/').query({ query: 'london' }).set('Accept', 'application/json');
+    response = await request('https://www.metaweather.com/').get('api/location/search/').query({ query: 'london' });
     expect(response.status).toEqual(200);
     expect(response.body).toStrictEqual([{ "title": "London", "location_type": "City", "woeid": 44418, "latt_long": "51.506321,-0.12714" }]);
 
@@ -20,7 +20,7 @@ describe('Metaweather API Location Search endpoint test', () => {
     expect(response.status).toEqual(200);
     expect(response.body).toEqual([]);
 
-    response = await request('https://www.metaweather.com/').get('api/location/search/').query({ lattlong: '36.96,-122.02' }).set('Accept', 'application/json');
+    response = await request('https://www.metaweather.com/').get('api/location/search/').query({ lattlong: '36.96,-122.02' });
     expect(response.status).toEqual(200);
     expect(response.body).toStrictEqual([
       {

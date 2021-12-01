@@ -9,15 +9,6 @@
     "lint:package": "npmPkgJsonLint -c ./.npmpackagejsonlintrc.json .",
     "test": "jest --verbose --runInBand --detectOpenHandles"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pa-media-group/jest-integration-template.git"
-  },
-  "keywords": [
-    "Jest",
-    "Testing",
-    "Template"
-  ],
   "author": "PA Media Group",
   "license": "ISC",
   "dependencies": {

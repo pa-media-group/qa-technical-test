@@ -8,7 +8,7 @@ export class TestConfig {
    * @returns the base URL, over-ridden by .env if it exists.
    */
   static getBaseUri(): string {
-    // Please replace this with the micro-service you're interacting with
+    // Please replace this with the api you're interacting with
     return process.env.BASE_URI || 'https://reqres.in/api/';
   }
 }
