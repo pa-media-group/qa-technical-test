@@ -6,6 +6,7 @@
   * We have provided bootstrapped projects for Engineers who wish to provide either a Java or JavaScript-based solution
   * We will accept submissions in other languages of choice
   * This assessment will be judged on your approach, the "how", "why" and "what" as well as simply the technical implementation
+  * The README.md files for the Java and JavaScript versions of this assessment contain the same information described below, with additional links to the existing tests to refactor and "how to run" information.
 
 When you have completed the challenge, please push your code into a GitHub repository and send the link back to us for review.
 
