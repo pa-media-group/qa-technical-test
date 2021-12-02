@@ -10,6 +10,11 @@
 
 When you have completed the challenge, please push your code into a GitHub repository and send the link back to us for review.
 
+**⚠️ NOTE: A summary of the challenge is below, however please ensure you read the README for the version (Java or JavaScript/TypeScript) that you choose for complete instructions**
+
+  - The Java challenge can be found [here](./java)
+  - The JavaScript/TypeScript challenge can be found [here](./javascript)
+
 ## Challenge
 
 ### Scenario to Test
