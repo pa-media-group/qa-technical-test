@@ -2,7 +2,7 @@ import * as request from 'supertest';
 
 describe('Metaweather API Location Search endpoint test', () => {
   test('we can search the API endpoint using a variety of available query parameters', async () => {
-    let response = await request('https://www.metaweather.com/').get('api/location/search/').query({ query: 'san' }).set('Accept', 'application/json');
+    let response = await request('https://www.metaweather.com/').get('api/location/search/').query({ query: 'san' }).set('Content-Type', 'application/json');
 
     expect(response.status).toEqual(200);
     expect(response.body[0]).toEqual({
